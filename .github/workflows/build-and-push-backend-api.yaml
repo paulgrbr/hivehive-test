@@ -6,7 +6,8 @@ on:
     branches: [ "main" ]
     paths:
       - "backend-api/**"
-      - ".github/workflows/docker-backend-api.yml"
+      - ".github/workflows/build-and-push-backend-api.yaml"
+      
   pull_request:
     branches: [ "main" ]
     paths:
